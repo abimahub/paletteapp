@@ -39,3 +39,10 @@
 ColorTile {
  padding: 0px;
 }
+.ColorBox {
+    height: 50px;
+    width: 200px;
+    margin: 5px;
+    float: left;
+    border: 2px, solid, var(--text-color) ;
+}
