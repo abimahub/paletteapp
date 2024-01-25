@@ -1,0 +1,41 @@
+:root {
+    :root {
+        --main-color: #f6f6f6;
+        --text-color: grey;
+        --hex1: #24B1E0;
+        --hexred:#ff0000;
+        --hexorange: #ffa500;
+        --hexyellow: #ffff00;
+        --hexgreen: #008000;
+        --hexblue: #0000ff;
+        --hexpurple: #4b0082;
+        --hexviolet: #9400D3;
+        text-align: center;
+      }
+      
+}
+
+* {
+    box-sizing: border-box;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .col {
+    float: left;
+    width:auto;
+    padding-bottom: 0%;
+    margin-bottom:0%;
+    margin-right: 5px;
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col"] {
+      width: 100%;
+    }
+  }
+ColorTile {
+ padding: 0px;
+}
